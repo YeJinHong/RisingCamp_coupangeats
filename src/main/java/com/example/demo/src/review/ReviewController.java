@@ -86,6 +86,7 @@ public class ReviewController {
     public BaseResponse<GetReviewRes> getUserReview(@PathVariable("reviewId") int reviewId, @PathVariable("userId") int userId) {
         try {
             int userIdByJwt = jwtService.getUserId();
+            System.out.println("test");
             if (userId != userIdByJwt) {
                 return new BaseResponse(INVALID_USER_JWT);
             }

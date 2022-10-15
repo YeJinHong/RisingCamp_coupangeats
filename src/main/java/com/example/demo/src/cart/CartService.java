@@ -41,7 +41,6 @@ public class CartService {
     public PostCartRes createCart(PostCartReq postCartReq) throws BaseException{
         // 필수 옵션을 선택하지 않은경우 카트를 비운 후 insert가 반려된다.
 
-        // TODO : cart validation 처리
         int userId = postCartReq.getUserId();
         int restaurantId = postCartReq.getRestaurantId();
 
@@ -53,7 +52,6 @@ public class CartService {
         if(cartId > 0 && restaurantId != resIdByUserId){
             throw new BaseException(POST_CARTS_ANOTHER_RESTAURANT_ID_EXISTS);
         }
-
 
 
         // 필수 선택 옵션을 선택하지 않았다면 Request error
