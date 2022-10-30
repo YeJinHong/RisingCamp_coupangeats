@@ -3,15 +3,17 @@ coupangeats 모의 외주(클론코딩) - API 서버 구축
 *본 프로젝트는 소프트스퀘어드(라이징캠프) 소유의 템플릿을 사용했음을 밝힙니다.
 
 ## 바로가기
-[1. 진행기간 및 참여인원](#1.-진행기간-및-참여인원)  
-[2. 사용 기술](#2.-사용-기술)  
-[3. ERD 설계](#3.-ERD-설계)  
-[4. 핵심 기능](#4.-핵심-기능)  
-[5. 회고](#회고)  
+[1. 진행기간 및 참여인원](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#1-%EC%A7%84%ED%96%89%EA%B8%B0%EA%B0%84-%EB%B0%8F-%EC%B0%B8%EC%97%AC%EC%9D%B8%EC%9B%90)  
+[2. 사용 기술](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#2-%EC%82%AC%EC%9A%A9-%EA%B8%B0%EC%88%A0)  
+[3. ERD 설계](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#3-erd-%EC%84%A4%EA%B3%84)  
+[4. 프로젝트 기획서 및 API 명세서](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%ED%9A%8D%EC%84%9C-%EB%B0%8F-api-%EB%AA%85%EC%84%B8%EC%84%9C)
+[5. 핵심 구현 기능](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#5-%ED%95%B5%EC%8B%AC-%EA%B5%AC%ED%98%84-%EA%B8%B0%EB%8A%A5)  
+[6. 회고](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#6%ED%9A%8C%EA%B3%A0)  
 
 ## 1. 진행기간 및 참여인원
-Server - [Dona][https://github.com/YeJinHong], Core (2명)
-Client(Android) - Nova (1명)
+2022-05-21 ~ 2022-06-03   
+**Server(API)** - [Dona](https://github.com/YeJinHong), Core (2명)   
+**Client(Android)** - Nova (1명)
 
 ## 2. 사용 기술
 - Java 11
@@ -21,45 +23,50 @@ Client(Android) - Nova (1명)
 - lombock
 
 ## 3. ERD 설계
-<< 최종 작성 ERD 스크린샷 추가 요망 >>
+![ERD Diagram](https://user-images.githubusercontent.com/33932851/198862318-f803146c-5b69-4b04-b1d2-582668198680.png)
 
-## 4. 핵심 기능
+## 4. 프로젝트 기획서 및 API 명세서
+### 프로젝트 기획서
+https://docs.google.com/document/d/14ch80QWX1A5jdYGnlao2rd_hXcRzRb8sIhQVkYK1xl8/edit
 
 
-## 회고
-### 배운것
+### API 명세서
+https://docs.google.com/spreadsheets/d/1yS9TPf5F2BfYH447sij0xPvrUuIxi9Cir5M2x-C2jhk/edit?usp=sharing
+
+
+## 5. 핵심 구현 기능 
+배달 메뉴 선택 및 주문
+- 가게 선택
+- 메뉴 선택
+- 카트 담기
+- 주문하기
+
+**Dona 최종 발표 영상**   
+https://drive.google.com/file/d/1qufQzBhPWlVnVcZGRYT5Qm_9PiaKJNAm/view?usp=sharing
+
+
+## 6.회고
+### 배운것, 경험한 것   
  - 도메인 적용 및 AWS 서버 배포 경험
-    - jar 파일 실행으로 서버를 구동시키고 도메인을 통해 접속해보는 경험을 했다.
- - 무중단 서비스 nohup 키워드
- - Rest API 개념 및 작성 가이드
-   - 명사형, 띄어쓰기는 하이픈(-) 사용, url 구조는 최대 5개 등의 권장사항을 배웠다.
- - Postman 사용법 
-    - GET, POST 데이터 전송하는 법
+ - Rest API 개념 및 작성 가이드 숙지
+ - Postman - GET, POST 데이터 전송하는 법
  - API 명세서 작성법
- - ERD 도구 사용법 - aquery 사이트 사용
- - 계층형 DB 구현
-    - 기본적인 self-join을 사용하는 계층 DB가 아님
+ - ERD 도구(aquery) 사용법
+ - DB 외부 접속 방법
+ - 계층 관계를 가지는 DB 구현 경험
  - application.yml 설정 파일 이해
-    - dev, product 별로 설정 파일을 분리해서 적용할 수 있다는 것을 이해했다.
- - JWT 학습
-    - 유저 로그인 시 보안을 위한 jwt를 사용해보고 적용해보았다.
+    - dev, product 별로 설정 파일을 분리해서 적용할 수 있다는 것을 이해했습니다.
+ - JWT 사용 경험
  - Spring - Intercepter 구현
-    - 사이트 공통으로 처리되는 기능을 Intercepter를 구현함으로 처리했다.
     
-
 ### 아쉬운 점
- 시간에 쫒겨 응용할만한 기술을 공부하지 못했던것이 많이 아쉬웠다.
- - 자동 배포 툴 Jekins 미사용
- - MyBatis 미사용
+- DB 구축시 생각이 유연하지 못했다.(정규화와 FK 설정이 무조건적으로 필수라고 생각)
+- 시간에 쫒겨 응용할만한 기술을 적용하지 못함.
+ - Jenkins
+ - MyBatis
  - AWS ElasticSearch
-    - 대충 서버에 접속이 많아질때, 접속량에 대해 유연하게 서버를 증설하는 것이라 들었다.
  - AWS S3, Firebase의 데이터 저장소 미사용
     - 대신 DB에 이미지 저장 url을 파일 url을 줌으로서 구현했다.
-    - 보안상 좋지 않은 구조임이 명확해서 다른 방법을 쓰고 싶었는데, 의욕과 달리 못했다.
- - 계층형 DB
-    - 자세한 공부를 못했다. 이에서 착안한 응용으로 코드를 짜긴했지만 맞는지 모르겠다.
- - 화면별 API 구성
-    - 초기에 API에 대한 이해가 모자라 같은 화면에 여러개의 API로 분리했다.
  - application.yml 사용법 
     - 설정파일 분리 적용을 위해 여러 코드를 찾았지만, 대개 적용이 되지 않았다.
     - 여러개중 적용이 되는 코드를 찾았을 뿐 설정파일에 대한 이해를 한것 같지 않았다.
