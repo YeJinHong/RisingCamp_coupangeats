@@ -4,11 +4,11 @@ coupangeats 모의 외주(클론코딩) - API 서버 구축
 
 ## 바로가기
 [1. 진행기간 및 참여인원](#1.-진행기간-및-참여인원)  
-[2. 사용 기술]()  
-[3. ERD 설계](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#3-erd-%EC%84%A4%EA%B3%84)  
-[4. 프로젝트 기획서 및 API 명세서](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%ED%9A%8D%EC%84%9C-%EB%B0%8F-api-%EB%AA%85%EC%84%B8%EC%84%9C)
-[5. 핵심 구현 기능](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#5-%ED%95%B5%EC%8B%AC-%EA%B5%AC%ED%98%84-%EA%B8%B0%EB%8A%A5)  
-[6. 회고](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#6%ED%9A%8C%EA%B3%A0)  
+[2. 사용 기술](#2.-사용-기술)  
+[3. ERD 설계](3.-ERD-설계)  
+[4. 프로젝트 기획서 및 API 명세서](4.-프로젝트-기획서-및-API-명세서)
+[5. 핵심 구현 기능](5.-핵심-구현-기능) 
+[6. 회고](6.-회고)
 
 ## 1. 진행기간 및 참여인원
 2022-05-21 ~ 2022-06-03   
