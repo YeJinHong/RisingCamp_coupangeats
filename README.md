@@ -64,7 +64,6 @@ https://drive.google.com/file/d/1qufQzBhPWlVnVcZGRYT5Qm_9PiaKJNAm/view?usp=shari
 - 시간에 쫒겨 응용할만한 기술을 적용하지 못함.
  - Jenkins
  - MyBatis
- - AWS ElasticSearch
  - AWS S3, Firebase의 데이터 저장소 미사용
     - 대신 DB에 이미지 저장 url을 파일 url을 줌으로서 구현했다.
  - application.yml 사용법 
