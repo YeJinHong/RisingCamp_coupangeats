@@ -45,7 +45,7 @@ https://docs.google.com/spreadsheets/d/1yS9TPf5F2BfYH447sij0xPvrUuIxi9Cir5M2x-C2
 https://drive.google.com/file/d/1qufQzBhPWlVnVcZGRYT5Qm_9PiaKJNAm/view?usp=sharing
 
 
-## 6.회고
+## 6. 회고
 ### 배운것, 경험한 것   
  - 도메인 적용 및 AWS 서버 배포 경험
  - Rest API 개념 및 작성 가이드 숙지
