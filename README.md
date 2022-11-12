@@ -3,8 +3,8 @@ coupangeats 모의 외주(클론코딩) - API 서버 구축
 *본 프로젝트는 소프트스퀘어드(라이징캠프) 소유의 템플릿을 사용했음을 밝힙니다.
 
 ## 바로가기
-[1. 진행기간 및 참여인원](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#1-%EC%A7%84%ED%96%89%EA%B8%B0%EA%B0%84-%EB%B0%8F-%EC%B0%B8%EC%97%AC%EC%9D%B8%EC%9B%90)  
-[2. 사용 기술](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#2-%EC%82%AC%EC%9A%A9-%EA%B8%B0%EC%88%A0)  
+[1. 진행기간 및 참여인원](#1.-진행기간-및-참여인원)  
+[2. 사용 기술]()  
 [3. ERD 설계](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#3-erd-%EC%84%A4%EA%B3%84)  
 [4. 프로젝트 기획서 및 API 명세서](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%ED%9A%8D%EC%84%9C-%EB%B0%8F-api-%EB%AA%85%EC%84%B8%EC%84%9C)
 [5. 핵심 구현 기능](https://github.com/YeJinHong/RisingCamp_coupangeats/edit/main/README.md#5-%ED%95%B5%EC%8B%AC-%EA%B5%AC%ED%98%84-%EA%B8%B0%EB%8A%A5)  
