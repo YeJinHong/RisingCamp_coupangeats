@@ -65,7 +65,7 @@ https://drive.google.com/file/d/1qufQzBhPWlVnVcZGRYT5Qm_9PiaKJNAm/view?usp=shari
  - Jenkins
  - MyBatis
  - AWS S3, Firebase의 데이터 저장소 미사용
-    - 대신 DB에 이미지 저장 url을 파일 url을 줌으로서 구현했다.
+    - 대신 DB에 이미지 저장 위치를 줌으로서 구현했다.
  - application.yml 사용법 
     - 설정파일 분리 적용을 위해 여러 코드를 찾았지만, 대개 적용이 되지 않았다.
     - 여러개중 적용이 되는 코드를 찾았을 뿐 설정파일에 대한 이해를 한것 같지 않았다.
